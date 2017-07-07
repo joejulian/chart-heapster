@@ -1,0 +1,13 @@
+name: heapster
+description: Standalone chart for heapster metrics aggregator for autoscaling
+version: ${CHART_VER}-${CHART_REL}
+home: https://github.com/samsung-cnct/charts-heapster
+keywords:
+- heapster
+maintainers:
+- name: David Watson
+  email: davidewatson@gmail.com
+- name: Joe Julian
+  email: me@joejulian.name
+icon: https://kubernetes.io/images/favicon.png
+engine: gotpl
