@@ -22,6 +22,7 @@ spec:
         scheduler.alpha.kubernetes.io/critical-pod: ''
         scheduler.alpha.kubernetes.io/tolerations: '[{"key":"CriticalAddonsOnly", "operator":"Exists"}]'
     spec:
+      serviceAccount: heapster
       containers:
         - image: {{.Values.image}}:{{.Values.version}}
           name: {{.Values.app_name}}
